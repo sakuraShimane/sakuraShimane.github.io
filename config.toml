@@ -9,6 +9,10 @@ hasCJKLanguage = true
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
+[languages]
+  [languages.en]
+    googleAnalytics = "UA-166895151-1"
+
 [params]
   # LoveIt theme version
   version = "0.2.X"
