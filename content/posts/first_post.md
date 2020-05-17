@@ -1,7 +1,6 @@
 ---
-title: "さくら"
-date: 2020-05-15T00:33:14+09:00
-draft: true
+title: "Hello, World"
+date: 2020-05-18T00:00:00+09:00
 ---
 
 # Hello, world こんにちは--こんにちはーーー
