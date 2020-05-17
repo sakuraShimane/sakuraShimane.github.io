@@ -1,0 +1,299 @@
+baseURL = "http://ShimaneNoSakura.github.io/"
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "ShimaneNoSakura"
+
+hasCJKLanguage = true
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+  # site description
+  description = "This is first portfofolio Hugo Site for me"
+  # site keywords
+  keywords = ["Shimane", "島根"]
+  # public git repo url only then enableGitInfo is true
+  gitRepo = ""
+  # website images for Open Graph and Twitter Cards
+  images = ["/logo.png"]
+
+  #  App icon config
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "ShimaneNoSakura"
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = "/favicon.ico"
+
+  #  Search config
+  [params.search]
+    enable = true
+
+  # Header config
+  [params.header]
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "Sakura Shimane"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      #  whether to use typeit animation for title name
+      typeit = false
+
+  # Footer config
+  [params.footer]
+    enable = true
+    hugo = true
+    since = 2020
+    # license info (HTML format is supported)
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+  #  Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+
+  #  List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    rss = 10
+
+  # Home page config
+  [params.home]
+    #  amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      #  title shown in home page
+      title = "Shimane no Sakura"
+      # subtitle shown in home page
+      subtitle = "This is My New Hugo Site"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      #  disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      #  replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+
+  # Social config about the author
+  [params.social]
+    Twitter = "Shimanenosakura"
+    Facebook = "sakura.nishikori"
+    Youtubechannel = "https://www.youtube.com/channel/UCf3tTxTDJGquzSnx6Y-xGYA"
+    Email = "m.suuuiiiii39@gmail.com"
+    RSS = true
+
+  # Page config
+  [params.page]
+    #  whether to hide a page from home page
+    hiddenFromHomePage = false
+    #  whether to hide a page from search results
+    hiddenFromSearch = false
+    #  whether to enable twemoji
+    twemoji = false
+    # whether to enable lightgallery
+    lightgallery = false
+    #  whether to enable the ruby extended syntax
+    ruby = true
+    #  whether to enable the fraction extended syntax
+    fraction = true
+    #  whether to enable the fontawesome extended syntax
+    fontawesome = true
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+    #  whether to show the full text content in RSS
+    rssFullText = false
+    #  Table of the contents config
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # whether to make the table of the contents automatically collapsed
+      auto = true
+    #  KaTeX mathematical formulas
+    [params.page.math]
+      enable = true
+      # default block delimiter is $$ ... $$ and \\[ ... \\]
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      # default inline delimiter is $ ... $ and \\( ... \\)
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      # KaTeX extension copy_tex
+      copyTex = true
+      # KaTeX extension mhchem
+      mhchem = true
+    #  Code config
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 10
+    #  Mapbox GL JS config
+    [params.page.mapbox]
+      # access token of Mapbox GL JS
+      accessToken = ""
+      # style for the light theme
+      lightStyle = "mapbox://styles/mapbox/light-v9"
+      # style for the dark theme
+      darkStyle = "mapbox://styles/mapbox/dark-v9"
+      # whether to add NavigationControl
+      navigation = true
+      # whether to add GeolocateControl
+      geolocate = true
+      # whether to add ScaleControl
+      scale = true
+      # whether to add FullscreenControl
+      fullscreen = true
+    #  social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Line = true
+      Weibo = true
+      Evernote = true
+      
+    [params.page.seo]
+      # Publisher info
+      [params.page.seo.publisher]
+        name = "Sakura Shimane"
+        [params.page.seo.publisher.logo]
+          url = "logo.png"
+          width = 127
+          height = 40
+      # Logo info
+      [params.page.seo.logo]
+        url = "logo.png"
+        width = 127
+        height = 40
+      # Image info
+      [params.page.seo.image]
+        url = "logo.png"
+        width = 800
+        height = 600
+
+# Markup related config in Hugo
+[markup]
+  # Syntax Highlighting
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    # false is a necessary configuration
+    # (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Author config
+[author]
+  name = "Nishikori Sakura"
+  email = "m.suuuiiiii39@gmail.com"
+  link = "http://ShimaneNoSakura.github.io/"
+
+# Sitemap config
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Permalinks config
+[Permalinks]
+  posts = "blog/:year/:month/:day/:filename"
+
+# Privacy config
+[privacy]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Options to make output .md files
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+# Options to make output .md files
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Options to make hugo output files
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+  version = "0.2.X"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
