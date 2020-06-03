@@ -32,14 +32,15 @@ tags: [blog, shimane]
 よろしくお願いします！  
 
 
-# 経歴  
+# プロフィール  
 ### 高専女子です。  
 ### 専攻科に通っています。
 ### 島根歴21年＋シンガポール歴1年くらいです。 
 ### トビタテ留学JAPAN　【2019/3/10~2020/2/29】
 島根県地域人材コース第9期生で、シンガポールのTemasek Polytechnicに1年通いました。
 ベトナムにも行きました。
-
+- 関連投稿→[留学計画](http://localhost:1313/blog/2020/05/22/ryugakuplan/)
+- 関連投稿→[1年間、留学へ行ってみて](http://localhost:1313/blog/2020/05/24/doneryugaku/)
 - [トビタテ！留学JAPAN　文部科学省](https://tobitate.mext.go.jp/)
 
 - [トビタテ！留学JAPAN「地域人材コース」しまねプログラム](https://www.tobitate-shimane.jp/)
