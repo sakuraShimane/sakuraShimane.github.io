@@ -4,6 +4,11 @@ date: 2020-05-29T00:00:00+09:00
 tags: [blog, shimane, Webサイト開発, WordPress, Singalife]
 draft: false
 ---
+### 大学院進学用に作った資料（※2020.9.2更新）
+Google Driveに飛びます。
+個人情報が多いので、承認制にさせてもらっています。
+お時間いただきます。
+リンク→[島根のさくら成果物と実績証明書](https://drive.google.com/file/d/1HsfPIbjWRQ7LDa7ZSCQbZATSpsnPSghX/view?usp=sharing)  
 
 ### Webサイト開発
 #### シンガポール最大発行数のフリーペーパーSingaLifeのWebサイト  
