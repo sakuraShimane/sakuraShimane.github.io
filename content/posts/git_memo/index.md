@@ -22,3 +22,5 @@ draft: true
 - hugo server -D true
 をTarminal上で動かしてからじゃないと
 反映されないよ！
+
+タイトル付けた後は、:wq!で抜ける！
